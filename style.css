@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+  *{
+    margin: 0%;
+    padding: 0%;
+ }
+
+.body{
+    font-family: 'Courgette', cursive;
+    margin: 0%;
+    text-decoration: none;
+     
+ }
+ :root{
+    --praimary-color:#fde047;
+    
+} 
+ .navigation {
+    background-color:var(--praimary-color);
+    padding: 3rem 3rem;
+    text-align: center; 
+    /* border-bottom: 2px solid brown; */
+  }  
+  .heading{
+    
+     text-align: center;
+    font-family: 'Courgette', cursive;  
+     font-size: xx-large; 
+ }
+
+
+     img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       padding:0.5rem ; 
+    } 
+    #text-input{
+        box-sizing: border-box;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        min-height: 20vh;
+        
+    }
+    textarea{
+        min-height: 20vh;
+        margin-top: 0.2rem;
+        font-size: large;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 0.2rem solid black;
+        padding: 1rem;
+  }   
+  button{ 
+     box-sizing: border-box;
+    display: block; 
+     margin-top:1rem;
+    margin-bottom: 1rem;
+    background-color: var(--praimary-color);
+    border: 3px solid black ;
+    border-radius: 0.7rem;
+    padding: 1rem 3rem;
+    font-family: 'Courgette', cursive;
+    font-size: large;
+    margin-left: 20%;
+  }
+   
+  
+    #text-output{
+    
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    min-height: 20vh;
+    margin-top: 0.2rem;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0.2rem solid black; 
+    padding: 1rem;
+    margin-bottom: 2rem;
+   } 
+
+    .foot{
+        background-color:black;
+        /* border-top: 2px solid var(--praimary-color); */
+         text-align: center;
+        padding-top: 3rem; 
+        font-size: 2rem;
+    }
+    .foot li{
+        text-align:center;
+        font-size:1.5rem;
+        padding: 2rem 1rem;
+       
+       
+    } 
+    .foot .linka{
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        color:var(--praimary-color) ;
+        
+    }
+     h4{
+        color:var(--praimary-color) ;
+     }
+     p{
+        padding-top: 2rem;
+        font-family: 'Courgette', cursive;
+        font-size: larger;
+     }
+        
