@@ -4,11 +4,14 @@
 
 var textInput =document.querySelector("#text-input")
 var btnTranslat = document.querySelector("#btn-translat");
+var textOutput = document.querySelector("#text-output")
 console.log(textInput);
-
+console.log(textOutput);
 btnTranslat.addEventListener("click",clickHandler)
 
 function clickHandler(){
-    // console.log("clickd!");
+    console.log("clickd!");
     console.log("input",textInput.value);
+    console.log("output",textOutput.value);
+    
 }
