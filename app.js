@@ -12,6 +12,6 @@ btnTranslat.addEventListener("click",clickHandler)
 function clickHandler(){
     console.log("clickd!");
     console.log("input",textInput.value);
-    console.log("output",textOutput.value);
-    
+    // console.log("ouput",textInput.value);
+    textOutput.innerText = textInput.value + " in banana language " + " ka ma com  "
 }
