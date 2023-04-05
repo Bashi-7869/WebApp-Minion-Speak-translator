@@ -5,13 +5,7 @@
 var textInput =document.querySelector("#text-input")
 var btnTranslat = document.querySelector("#btn-translat");
 var textOutput = document.querySelector("#text-output")
-console.log(textInput);
-console.log(textOutput);
-btnTranslat.addEventListener("click",clickHandler)
 
-function clickHandler(){
-    console.log("clickd!");
-    console.log("input",textInput.value);
-    // console.log("ouput",textInput.value);
-    textOutput.innerText = textInput.value + " in banana language " + " ka ma com  "
-}
+// storing url
+let serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
