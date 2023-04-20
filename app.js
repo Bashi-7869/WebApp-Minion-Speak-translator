@@ -9,3 +9,11 @@ var textOutput = document.querySelector("#text-output")
 // storing url
 let serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
+btnTranslat.addEventListener("click",clickHandler)
+
+function clickHandler(){
+    //  taking input
+    let inputText = textInput.value
+    
+  
+    }
