@@ -14,6 +14,9 @@ btnTranslat.addEventListener("click",clickHandler)
 function clickHandler(){
     //  taking input
     let inputText = textInput.value
-    
-  
+    //    processing data
+    fetch(getServerdata(inputText))
+    .then(response => response.json())
+    .then(data => { console.log(data)})
+       
     }
