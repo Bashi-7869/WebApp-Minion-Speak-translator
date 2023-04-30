@@ -2,9 +2,9 @@
 // let wellcomeMessage = "wellcome to java script " + userName
 // alert(wellcomeMessage)
 
-var textInput =document.querySelector("#text-input")
+var textInput =document.querySelector("#text-input");
 var btnTranslat = document.querySelector("#btn-translat");
-var textOutput = document.querySelector("#text-output")
+var textOutput = document.querySelector("#text-output");
 
 // storing url
 let serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
@@ -20,8 +20,17 @@ function clickHandler(){
     .then(json => { let translatedText = json.contents.translated;   
         textOutput.innerText = translatedText;                 //  showing output
      })
+      
+    //  When error occured error handling
+         .catch(errorHandler)
+
     };
 
     function getserverURL(text){
         return serverUrl + "?" + "text=" + text
+    }
+
+    function errorHandler(error){
+        console.log("error occurred ",error);
+        alert("Something went wrong with server!try again after some time")
     }
