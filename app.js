@@ -15,8 +15,13 @@ function clickHandler(){
     //  taking input
     let inputText = textInput.value
     //    processing data
-    fetch(getServerdata(inputText))
+    fetch(getserverURL(inputText))
     .then(response => response.json())
-    .then(data => { console.log(data)})
-       
+    .then(json => { let translatedText = json.contents.translated;   
+        textOutput.innerText = translatedText;                 //  showing output
+     })
+    };
+
+    function getserverURL(text){
+        return serverUrl + "?" + "text=" + text
     }
