@@ -28,6 +28,7 @@ function clickHandler(){
 
     function getserverURL(text){
         return serverUrl + "?" + "text=" + text
+        //converting text and addding queryperams and textkey to server URL
     }
 
     function errorHandler(error){
