@@ -7,7 +7,7 @@ var btnTranslat = document.querySelector("#btn-translat");
 var textOutput = document.querySelector("#text-output");
 
 // storing url
-let serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+let serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 btnTranslat.addEventListener("click",clickHandler)
 
